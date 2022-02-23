@@ -1,20 +1,37 @@
+body {
+    height: 100px;
+    background-image: url("https://significadocolores.com/wp-content/uploads/Colores-Pastel-e1610644284332.png");
+    background-size: 50;
+    text-align: center;
+  }
 h1 {
-    color:cornflowerblue;
+    color:indianred;
+    background-color:beige;
 }
 img {
     width: 400px;
+    border: 20px;
+    border-style: double;
+    border-color: coral;
 }
 #thirdDiv {
-   height: 600px;
-   width: 500px; 
-   background-color:darkcyan;
-   padding: 50px;
-   border: 50px;
-   border-style:double;
-   border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    background-color: beige;
+    padding: 50px;
+    border: 50px;
+    border-style:ridge;
+    border-color:indianred;
+
 }
 
 #spanId {
+    display: flex;
+    justify-content: center;
     margin: 50px;
     font-size: 18px;
 }
